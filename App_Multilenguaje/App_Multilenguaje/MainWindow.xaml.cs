@@ -27,5 +27,24 @@ namespace App_Multilenguaje
         {
             InitializeComponent();
         }
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Set_Lenguage();
+        }
+        private void ddlLanguage_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            Set_Lenguage();
+        }
+        private void Set_Lenguage()
+        {
+            strLenguage = "Multilenguaje.Lenguajes." + ((ComboBoxItem)
+                ddlLanguage.SelectedItem).Name.ToString();
+            ResourceManager LocRM = new ResourceManager
+                (strLenguage, typeof(MainWindow).Assembly);
+            lblNombre.Text = LocRM.GetString("strNombre");
+            lblEdad.Text = LocRM.GetString("strEdad");
+            lblEquipo.Text = LocRM.GetString("strEquipo");
+            lblPosicion.Text = LocRM.GetString("strPosicion");
+        }
     }
 }

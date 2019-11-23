@@ -50,21 +50,21 @@
                 <RowDefinition Height="5*"/>
                 <RowDefinition Height="5*"/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Grid.Column="0" Name="lblFirstName"
+            <TextBlock Grid.Row="0" Grid.Column="0" x:Name="lblNombre"
                        Style="{StaticResource styleTextBlock}"/>
-            <TextBlock Grid.Row="1" Grid.Column="0" Name="lblLastName"
+            <TextBlock Grid.Row="1" Grid.Column="0" x:Name="lblEdad"
                        Style="{StaticResource styleTextBlock}"/>
-            <TextBlock Grid.Row="2" Grid.Column="0" Name="lblAge"
+            <TextBlock Grid.Row="2" Grid.Column="0" x:Name="lblEquipo"
                        Style="{StaticResource styleTextBlock}"/>
-            <TextBlock Grid.Row="3" Grid.Column="0" Name="lblContact"
+            <TextBlock Grid.Row="3" Grid.Column="0" x:Name="lblPosicion"
                        Style="{StaticResource styleTextBlock}"/>
-            <TextBox Grid.Row="0" Grid.Column="1" 
+            <TextBox x:Name="txtNombre" Grid.Row="0" Grid.Column="1" 
                        Style="{StaticResource styleTextBox}"/>
-            <TextBox Grid.Row="1" Grid.Column="1" 
+            <TextBox x:Name="txtEdad" Grid.Row="1" Grid.Column="1" 
                        Style="{StaticResource styleTextBox}"/>
-            <TextBox Grid.Row="2" Grid.Column="1" 
+            <TextBox x:Name="txtEquipo" Grid.Row="2" Grid.Column="1" 
                        Style="{StaticResource styleTextBox}"/>
-            <TextBox Grid.Row="3" Grid.Column="1" 
+            <TextBox x:Name="txtPosicion" Grid.Row="3" Grid.Column="1" 
                        Style="{StaticResource styleTextBox}"/>
 
         </Grid>

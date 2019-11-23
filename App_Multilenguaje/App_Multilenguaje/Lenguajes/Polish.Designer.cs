@@ -59,5 +59,41 @@ namespace App_Multilenguaje.Lenguajes {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Imię:.
+        /// </summary>
+        internal static string strImię {
+            get {
+                return ResourceManager.GetString("strImię", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Pozycja:.
+        /// </summary>
+        internal static string strPozycja {
+            get {
+                return ResourceManager.GetString("strPozycja", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Wiek:.
+        /// </summary>
+        internal static string strWiek {
+            get {
+                return ResourceManager.GetString("strWiek", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Zespół:.
+        /// </summary>
+        internal static string strZespół {
+            get {
+                return ResourceManager.GetString("strZespół", resourceCulture);
+            }
+        }
     }
 }

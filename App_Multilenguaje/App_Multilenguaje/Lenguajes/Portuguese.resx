@@ -117,13 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="strチーム" xml:space="preserve">
-    <value>チーム</value>
+  <data name="strEquipa" xml:space="preserve">
+    <value>Equipa:</value>
   </data>
-  <data name="str名" xml:space="preserve">
-    <value>名:</value>
+  <data name="strIdade" xml:space="preserve">
+    <value>Idade:</value>
   </data>
-  <data name="str年齢" xml:space="preserve">
-    <value>年齢:</value>
+  <data name="strPosição" xml:space="preserve">
+    <value>Posição:</value>
+  </data>
+  <data name="strPrimeiro nome" xml:space="preserve">
+    <value>Primeiro nome:</value>
   </data>
 </root>

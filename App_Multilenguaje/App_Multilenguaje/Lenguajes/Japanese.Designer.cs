@@ -59,5 +59,41 @@ namespace App_Multilenguaje.Lenguajes {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a チーム.
+        /// </summary>
+        internal static string strチーム {
+            get {
+                return ResourceManager.GetString("strチーム", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a 名:.
+        /// </summary>
+        internal static string str名 {
+            get {
+                return ResourceManager.GetString("str名", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a 年齢:.
+        /// </summary>
+        internal static string str年齢 {
+            get {
+                return ResourceManager.GetString("str年齢", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a 役職:.
+        /// </summary>
+        internal static string str役職 {
+            get {
+                return ResourceManager.GetString("str役職", resourceCulture);
+            }
+        }
     }
 }

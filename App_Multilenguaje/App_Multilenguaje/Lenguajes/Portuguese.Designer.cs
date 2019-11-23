@@ -61,29 +61,38 @@ namespace App_Multilenguaje.Lenguajes {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a チーム.
+        ///   Busca una cadena traducida similar a Equipa:.
         /// </summary>
-        internal static string strチーム {
+        internal static string strEquipa {
             get {
-                return ResourceManager.GetString("strチーム", resourceCulture);
+                return ResourceManager.GetString("strEquipa", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 名:.
+        ///   Busca una cadena traducida similar a Idade:.
         /// </summary>
-        internal static string str名 {
+        internal static string strIdade {
             get {
-                return ResourceManager.GetString("str名", resourceCulture);
+                return ResourceManager.GetString("strIdade", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a 年齢:.
+        ///   Busca una cadena traducida similar a Posição:.
         /// </summary>
-        internal static string str年齢 {
+        internal static string strPosição {
             get {
-                return ResourceManager.GetString("str年齢", resourceCulture);
+                return ResourceManager.GetString("strPosição", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Primeiro nome:.
+        /// </summary>
+        internal static string strPrimeiro_nome {
+            get {
+                return ResourceManager.GetString("strPrimeiro nome", resourceCulture);
             }
         }
     }
